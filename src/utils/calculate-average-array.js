@@ -15,11 +15,11 @@ function calculateAverage(arr) {
   return parseFloat(sum / numbers.length); // Returns
 }
 
-let arr = [-6, -4, -2, -8, -10]; // Output: -6
+// let arr = [-6, -4, -2, -8, -10]; // Output: -6
 // let arr = [6, 4, 2, 8, 10]; // Output: 6
 // let arr = [6]; // Output: 6
-// arr = []; // Output: null
-// let arr = [2, 4, "6", 8]; // Output: 5
+// let  arr = []; // Output: null
+let arr = [2, 4, "6", 8]; // Output: 5
 
 let n = arr.length;
 
